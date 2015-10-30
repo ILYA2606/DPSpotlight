@@ -25,6 +25,8 @@ on method
 ```
 
 3) Handle user activity
+```<Objective-C>
 [DPSpotlight sharedInstance].activityBlock = ^(NSUserActivity * __nonnull userActivity){
-
+  //do something
 };
+```
